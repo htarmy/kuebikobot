@@ -21,8 +21,7 @@ def addDownload(link):
         print("Download complete")
 
 # list downloads
-      downloads = aria2.get_downloads()
-
+   downloads = aria2.get_downloads()
 
 def main():
     for download in downloads:
