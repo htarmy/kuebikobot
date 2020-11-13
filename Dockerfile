@@ -17,5 +17,5 @@ COPY . .
 
 RUN chmod +x commands.sh && chmod +x folder.sh
 
-CMD ["python","bot.py"]
+CMD ["python3","bot.py"]
 
