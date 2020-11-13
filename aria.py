@@ -1,7 +1,7 @@
 import aria2p
 import socket
 import os
-host = socket.gethostbyname('aria')
+host = socket.gethostbyname('aria2c')
 
 aria2 = aria2p.API(
     aria2p.Client(
